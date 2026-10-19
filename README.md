@@ -154,9 +154,9 @@ O firmware abaixo realiza a leitura conjunta do **DHT11** (temperatura em `°C` 
 #include <DHT.h>
 
 // ================= CONFIGURAÇÕES DE WI-FI E BROKER MQTT =================
-const char* SSID        = "SUA_REDE_WIFI";
-const char* PASSWORD    = "SUA_SENHA_WIFI";
-const char* BROKER_MQTT = "SEU_IP_SERVIDOR_FIWARE"; // IP da VM FIWARE / Broker Mosquitto
+const char* SSID        = "FIAP_IOT2";
+const char* PASSWORD    = "F!@p25.IOT";
+const char* BROKER_MQTT = "3.135.234.101";  
 const int   BROKER_PORT = 1883;
 
 // ================= TÓPICOS MQTT (FIWARE ULTRALIGHT 2.0 / MYMQTT) =================
@@ -165,7 +165,7 @@ const char* TOPICO_PUBLISH_ATTR = "/TEF/wineCellar001/attrs";
 const char* TOPICO_PUBLISH_TEMP = "/TEF/wineCellar001/attrs/t";
 const char* TOPICO_PUBLISH_HUM  = "/TEF/wineCellar001/attrs/h";
 const char* TOPICO_PUBLISH_LUM  = "/TEF/wineCellar001/attrs/l";
-const char* ID_MQTT             = "fiware_wineCellar001";
+const char* ID_MQTT             = "fiware_wineCellar001"; // Se der conflito no servidor, altere para 002, 003, etc.
 
 // ================= DEFINIÇÃO DOS PINOS DO HARDWARE =================
 #define PIN_DHT 4     // GPIO 4 (D4) -> Barramento DATA do DHT11
@@ -197,6 +197,7 @@ void initWiFi() {
   Serial.println(WiFi.localIP());
 }
 
+// CORRIGIDO: char* topic
 void mqttCallback(char* topic, byte* payload, unsigned int length) {
   String msg;
   for (unsigned int i = 0; i < length; i++) {
