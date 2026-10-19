@@ -99,6 +99,8 @@ flowchart TD
 ---
 
 ## 🔌 Hardware e Esquema de Pinagem (ESP32)
+<img width="734" height="423" alt="image" src="https://github.com/user-attachments/assets/444f854c-4c16-4bba-93ee-295a2cf078d6" />
+
 
 ### 🛠️ Componentes Utilizados
 
