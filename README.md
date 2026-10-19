@@ -504,18 +504,12 @@ curl -X GET "http://<IP_SERVIDOR>:8666/STH/v1/contextEntities/type/WineCellar/id
 
 ## 👥 Integrantes do Grupo (Turma 1ESPQ)
 
-| Foto / GitHub | Nome Completo | RM |
 | :---: | :--- | :---: |
-| 💻 | *[Inserir Nome do Integrante 1]* | *[Inserir RM]* |
-| 💻 | *[Inserir Nome do Integrante 2]* | *[Inserir RM]* |
-| 💻 | *[Inserir Nome do Integrante 3]* | *[Inserir RM]* |
-| 💻 | *[Inserir Nome do Integrante 4]* | *[Inserir RM]* |
-| 💻 | *[Inserir Nome do Integrante 5]* | *[Inserir RM]* |
-
+| 💻 | *Anderson Marcolino Pereira* | *574066* |
+| 💻 | *Caio Cesar* | *572906* |
+| 💻 | *Pedro Alves* | *569192* |
+| 💻 | *Rafaella Pazzanese* | *572296* |
+| 💻 | *Kauã Miranda* | *569473* |
 ---
 
-## 📚 Referências
 
-* **FIWARE Foundation:** [FIWARE Orion Context Broker Documentation (NGSIv2)](https://fiware-orion.readthedocs.io/) e [FIWARE IoT Agent for Ultralight 2.0](https://fiware-iotagent-ul.readthedocs.io/).
-* **Smart Data Models (União Europeia):** [Smart Data Models Initiative](https://smartdatamodels.org/).
-* **FIAP — Engenharia de Software:** *Checkpoint 05 — O Caso da Vinheria Agnello - IoT*, Prof. Me. Lucas Demetrius Augusto (Outubro de 2026).
