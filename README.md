@@ -505,11 +505,11 @@ curl -X GET "http://<IP_SERVIDOR>:8666/STH/v1/contextEntities/type/WineCellar/id
 ## 👥 Integrantes do Grupo (Turma 1ESPQ)
 
 | :---: | :--- | :---: |
-| 💻 | *Anderson Marcolino Pereira* | *574066* |
-| 💻 | *Caio Cesar* | *572906* |
-| 💻 | *Pedro Alves* | *569192* |
-| 💻 | *Rafaella Pazzanese* | *572296* |
-| 💻 | *Kauã Miranda* | *569473* |
+| 💻 | *[Anderson Marcolino Pereira]* | *574066* |
+| 💻 | *[Caio Cesar* | *572906]* |
+| 💻 | *[Pedro Alves* | *569192]* |
+| 💻 | *[Rafaella Pazzanese* | *572296]* |
+| 💻 | *[Kauã Miranda* | *569473]* |
 ---
 
 
