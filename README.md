@@ -155,7 +155,7 @@ O firmware abaixo realiza a leitura conjunta do **DHT11** (temperatura em `°C` 
 
 // ================= CONFIGURAÇÕES DE WI-FI E BROKER MQTT =================
 const char* SSID        = "FIAP_IOT2";
-const char* PASSWORD    = "F!@p25.IOT";
+const char* PASSWORD    = "suasenha";
 const char* BROKER_MQTT = "3.135.234.101";  
 const int   BROKER_PORT = 1883;
 
